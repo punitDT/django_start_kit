@@ -1,1 +1,0 @@
-# django_start_kit

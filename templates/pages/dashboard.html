@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h4 class="mb-0">Welcome, {{ user.username }}!</h4>
+    </div>
+    <div class="card-body">
+        <p>This is your dashboard. You've successfully logged in.</p>
+    </div>
+</div>
+{% endblock %}
